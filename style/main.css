@@ -63,17 +63,36 @@ main img.foto-pixel{
     width: 120%;
 }
 
-@media screen and (max-width: 640px){
-    main section#nome{
+@media screen and (max-width: 1200px){
+
+    main section#foto{
         width: 50%;
     }
 
     main img.foto-pixel{
-        width: 170%;
+        width: 120%;
+    }
+}
+
+@media screen and (max-width: 640px){
+    main{
+        height: calc(100vh - 50px) !important;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    main section#nome{
+        width: 100%;
+        height: 50%;
+        align-content: flex-end;
+    }
+
+    main img.foto-pixel{
+        width: 100%;
     }
 
     main section#nome a{
-        height: 10%;
+        height: 15%;
         width: 100%;
     }
     
@@ -82,7 +101,13 @@ main img.foto-pixel{
     }
 
     main section#nome a img{
-        width: 10%;
+        width: 8%;
+    }
+
+    main section#foto{
+        height: 50%;
+        width: 100%;
+        justify-content: flex-end;
     }
 
 }
