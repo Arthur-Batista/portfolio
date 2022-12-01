@@ -1,0 +1,64 @@
+body{
+    background-color: #3b2e2a;
+    color: #fef1e0;
+    font-family: "Press Start 2P", sans-serif;
+
+}
+
+a{
+    text-decoration: none;
+    color: #fef1e0;
+}
+
+main{
+    margin: 0 8%;
+
+    height: 100%;
+
+    display: flex;
+    align-items: flex-end;
+}
+
+main section#nome{
+    height: calc(100vh - 50px) !important;
+    width: 70%;
+    display: flex;
+    align-items: center;
+    align-content: center;
+
+    flex-wrap: wrap;
+}
+
+main section#nome h1{
+    width: 70%;
+    text-align: center;
+    font-size: 150%;
+}
+
+main section#nome a{
+    background-color: #5e4b55;
+    border-radius: 8px;
+
+    width: 70%;
+    height: 5%;
+
+    color: #fef1e0;
+
+    margin: 5% 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main section#nome a img{
+    width: 4%;
+}
+
+main section#foto{
+    width: 30%;
+} 
+
+main img.foto-pixel{
+    width: 120%;
+}
