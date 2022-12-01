@@ -86,4 +86,9 @@ section#sobre section#imagem-sobre img{
     section#sobre section#imagem-sobre{
         height: 35%;
     }
+
+    section#sobre section#imagem-sobre img{
+        width: 84%;
+        height: 90%;
+    }
 }
