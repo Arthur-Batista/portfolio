@@ -62,3 +62,27 @@ main section#foto{
 main img.foto-pixel{
     width: 120%;
 }
+
+@media screen and (max-width: 640px){
+    main section#nome{
+        width: 50%;
+    }
+
+    main img.foto-pixel{
+        width: 170%;
+    }
+
+    main section#nome a{
+        height: 10%;
+        width: 100%;
+    }
+    
+    main section#nome h1{
+        width: 100%;
+    }
+
+    main section#nome a img{
+        width: 10%;
+    }
+
+}

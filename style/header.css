@@ -23,3 +23,15 @@ header nav ul li{
     margin: 0 1%;
     font-size: 70%;
 }
+
+header nav ul li a:hover{
+    color: #d14334 !important;
+}
+
+
+
+@media screen and (max-width: 640px){
+    header nav ul{
+        justify-content: center;
+    }
+}
