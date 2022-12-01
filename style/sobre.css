@@ -73,3 +73,17 @@ section#sobre section#imagem-sobre img{
     }
 
 }
+
+@media screen and (max-width: 430px){
+    section#sobre section#texto-sobre{
+        height: 80%;
+    }
+
+    section#sobre section#texto-sobre p{
+        line-height: 100%;
+    }
+
+    section#sobre section#imagem-sobre{
+        height: 20%;
+    }
+}
