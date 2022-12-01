@@ -76,7 +76,7 @@ section#sobre section#imagem-sobre img{
 
 @media screen and (max-width: 430px){
     section#sobre section#texto-sobre{
-        height: 80%;
+        height: 75%;
     }
 
     section#sobre section#texto-sobre p{
@@ -84,6 +84,6 @@ section#sobre section#imagem-sobre img{
     }
 
     section#sobre section#imagem-sobre{
-        height: 20%;
+        height: 25%;
     }
 }
