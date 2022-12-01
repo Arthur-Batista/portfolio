@@ -1,13 +1,13 @@
 body{
-    background-color: #3b2e2a;
-    color: #fef1e0;
+    background-color: var(--body-color);
+    color: var(--font-color);
     font-family: "Press Start 2P", sans-serif;
 
 }
 
 a{
     text-decoration: none;
-    color: #fef1e0;
+    color: var(--font-color);
 }
 
 main{
@@ -36,13 +36,13 @@ main section#nome h1{
 }
 
 main section#nome a{
-    background-color: #5e4b55;
+    background-color: var(--button-color);
     border-radius: 8px;
 
     width: 70%;
     height: 5%;
 
-    color: #fef1e0;
+    color: var(--font-color);
 
     margin: 5% 0;
 

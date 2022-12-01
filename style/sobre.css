@@ -1,0 +1,39 @@
+section#sobre{
+    height: 100vh;
+    background-color: var(--sobre-color);
+    display: flex;
+    
+}
+
+section#sobre section#texto-sobre{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    width: 60%;
+}
+
+section#sobre h2{
+    margin: 0 0 0 8%;
+    width: 100%;
+    font-size: 180%;
+}
+
+section#sobre p{
+    margin: 0 0 0 8%;
+    width: 70%;
+    text-align: justify;
+    line-height: 150%;
+    font-size: 80%;
+}
+
+section#sobre section#imagem-sobre{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+section#sobre section#imagem-sobre img{
+    width: 110%;
+    height: 80%;
+}
