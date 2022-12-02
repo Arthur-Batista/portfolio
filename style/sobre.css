@@ -41,6 +41,7 @@ section#sobre section#imagem-sobre img{
 @media screen and (max-width: 850px){
     section#sobre{
         flex-direction: column;
+        height: 100%;
     }
 
     section#sobre section#texto-sobre{
@@ -68,8 +69,7 @@ section#sobre section#imagem-sobre img{
     }
 
     section#sobre section#imagem-sobre img{
-        width: 50%;
-        height: 100%;
+        width: 30%;
     }
 
 }
