@@ -90,8 +90,16 @@ main img.foto-pixel{
         align-content: flex-end;
     }
 
-    main img.foto-pixel{
+    main section#foto{
+        display: flex;
+        height: 50%;
         width: 100%;
+        justify-content: center;
+    }
+
+    main img.foto-pixel{
+        width: 60%;
+        height: 100%;
     }
 
     main section#nome a{
@@ -104,13 +112,8 @@ main img.foto-pixel{
     }
 
     main section#nome a img{
-        width: 8%;
+        width: 5%;
     }
 
-    main section#foto{
-        height: 50%;
-        width: 100%;
-        justify-content: flex-end;
-    }
 
 }

@@ -13,7 +13,7 @@ section#sobre section#texto-sobre{
 }
 
 section#sobre h2{
-    margin: 0 0 0 8%;
+    margin: 4% 0 0 8%;
     width: 100%;
     font-size: 180%;
 }
@@ -22,7 +22,7 @@ section#sobre p{
     margin: 0 0 0 8%;
     width: 70%;
     text-align: justify;
-    line-height: 150%;
+    line-height: 15px;
     font-size: 80%;
 }
 
@@ -38,7 +38,7 @@ section#sobre section#imagem-sobre img{
     height: 80%;
 }
 
-@media screen and (max-width: 850px){
+@media screen and (max-width: 1000px){
     section#sobre{
         flex-direction: column;
         height: 100%;
@@ -59,7 +59,6 @@ section#sobre section#imagem-sobre img{
         width: 84% ;
         margin-left: 8%;
         margin-right: 8%;
-        /* padding: 2% */
     }
 
     section#sobre section#imagem-sobre{
