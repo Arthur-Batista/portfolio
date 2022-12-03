@@ -1,0 +1,116 @@
+section#formacao{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 2% 5%;
+}
+
+ol{
+    list-style: circle ;
+}
+
+section#formacao section.formacao{
+    margin: 2% 0;
+    display: flex;
+    height: 40%;
+}
+
+section#formacao section.formacao h2{
+    color: tomato;
+    margin-bottom: 5%;
+    font-size: 120%;
+}
+
+section#formacao section.formacao h3{
+    font-size: 60%;
+}
+
+section#formacao a:hover{
+    color: var(--link-hover-color)
+}
+
+
+section#formacao section.formacao ol, section#formacao section.formacao ol li{
+    margin: 4%;
+}
+
+section#formacao section.formacao p, section#formacao section.formacao ol li{
+    font-size: 80%;
+}
+
+
+section#ensinomedio{
+    width: 100%;
+
+}
+
+section#texto-ensinomedio{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+
+
+section#imagem-ensinomedio{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section#imagem-ensinomedio img{
+    width: 35%;
+    height: 70%;
+}
+
+/* section#emprego{
+} */
+
+section#emprego section#texto-emprego{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    justify-content: space-around;
+}
+
+section#emprego section#imagem-emprego{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+
+section#emprego section#imagem-emprego img{
+    width: 40%;
+    height: 40%;
+}
+
+section#cursos{
+    display: flex;
+    flex-direction: column;
+}
+
+section#cursos section#uniasselvi{
+    display: flex;
+}
+
+section#cursos section#texto-uniasselvi{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 50%;
+}
+
+section#cursos section#imagem-uniasselvi{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+
+section#cursos section#imagem-uniasselvi img{
+    width: 60%;
+    height: 70%;
+}
