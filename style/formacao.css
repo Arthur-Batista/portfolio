@@ -22,7 +22,13 @@ section#formacao section.formacao h2{
 }
 
 section#formacao section.formacao h3{
-    font-size: 60%;
+    font-size: 85%;
+    line-height: 40px;
+    color: var(--subtitle-color)
+}
+
+section#formacao a{
+    color: #deb297;
 }
 
 section#formacao a:hover{
@@ -32,6 +38,7 @@ section#formacao a:hover{
 
 section#formacao section.formacao ol, section#formacao section.formacao ol li{
     margin: 4%;
+    line-height: 20px;
 }
 
 section#formacao section.formacao p, section#formacao section.formacao ol li{
@@ -84,7 +91,7 @@ section#emprego section#imagem-emprego{
 
 section#emprego section#imagem-emprego img{
     width: 40%;
-    height: 40%;
+    height: 80%;
 }
 
 section#cursos{
@@ -92,8 +99,10 @@ section#cursos{
     flex-direction: column;
 }
 
+
 section#cursos section.curso{
     display: flex;
+    width: 100%;
 }
 
 section#cursos section.texto-curso{
@@ -116,6 +125,67 @@ section#cursos section#imagem-uniasselvi img{
 }
 
 section#cursos section#imagem-cursoemvideo img{
-    width: 30%;
-    height: 30%;
+    width: 40%;
+    height: 90%;
+}
+
+h1.danki{
+    font-size: 180%;
+}
+
+h1.danki:before{
+    content: '<';
+    color: #7855C3;
+}
+
+h1.danki:after{
+    content: '>';
+    color: #7855C3;
+}
+
+@media screen and (max-width: 930px){
+    section.formacao{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    section.formacao h2{
+        display: flex;
+        width: 100%;
+        align-items: center;
+    }
+
+    section#formacao section.formacao p{
+        margin: 15% 0 ;
+    }
+
+    section#imagem-ensinomedio img{
+        width: 50%;
+    }
+
+    section#emprego section#imagem-emprego img{
+        width: 80%;
+        margin: 15% 0;
+    }
+
+    section.curso{
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    section#cursos section.texto-curso{
+        width: 50%;
+        
+    }
+
+    section.formacao section.texto-formacao{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    h1.danki{
+        font-size: 89%;
+    }
 }
