@@ -92,18 +92,18 @@ section#cursos{
     flex-direction: column;
 }
 
-section#cursos section#uniasselvi{
+section#cursos section.curso{
     display: flex;
 }
 
-section#cursos section#texto-uniasselvi{
+section#cursos section.texto-curso{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     width: 50%;
 }
 
-section#cursos section#imagem-uniasselvi{
+section#cursos section.imagem-curso{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -113,4 +113,9 @@ section#cursos section#imagem-uniasselvi{
 section#cursos section#imagem-uniasselvi img{
     width: 60%;
     height: 70%;
+}
+
+section#cursos section#imagem-cursoemvideo img{
+    width: 30%;
+    height: 30%;
 }
