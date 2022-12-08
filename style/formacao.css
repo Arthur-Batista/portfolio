@@ -23,7 +23,7 @@ section#formacao section.formacao h2{
 
 section#formacao section.formacao h3{
     font-size: 85%;
-    line-height: 40px;
+    line-height: 20px;
     color: var(--subtitle-color)
 }
 
@@ -129,20 +129,6 @@ section#cursos section#imagem-cursoemvideo img{
     height: 90%;
 }
 
-h1.danki{
-    font-size: 180%;
-}
-
-h1.danki:before{
-    content: '<';
-    color: #7855C3;
-}
-
-h1.danki:after{
-    content: '>';
-    color: #7855C3;
-}
-
 @media screen and (max-width: 930px){
     section.formacao{
         flex-direction: column;
@@ -153,6 +139,8 @@ h1.danki:after{
         display: flex;
         width: 100%;
         align-items: center;
+        justify-content: center;
+        text-align: center;
     }
 
     section#formacao section.formacao p{
@@ -185,7 +173,14 @@ h1.danki:after{
         justify-content: center;
     }
 
-    h1.danki{
-        font-size: 89%;
+    section#imagem-dankicode img{
+        width: 170%;
+    }
+
+    section#formacao section.formacao h3{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
     }
 }
