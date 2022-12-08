@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="style/main.css">
     <link rel="stylesheet" href="style/sobre.css">
     <link rel="stylesheet" href="style/formacao.css">
+    <link rel="stylesheet" href="style/cursos.css">
     <link rel="stylesheet" href="style/cores.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -31,7 +32,7 @@
     <main>
         <section id="nome">
             <h1>Arthur Batista</h1>
-            <a href="assets/docs/curriculo-Arthur - Copia.pdf" download>Currículo <img src="assets/download-icon.svg" alt='Ícone de Download'/> </a>
+            <a href="assets/docs/curriculo-Arthur - Copia.pdf" target="_blank">Currículo <img src="assets/download-icon.svg" alt='Ícone de Download'/> </a>
         </section>
         <section id="foto">
             <img src="assets/foto-pixel.png" alt="Foto Arthur Pixelada" class ="foto-pixel">
@@ -76,91 +77,99 @@
         </section>
         <section id="cursos" class="formacao">
                 <section class="texto-formacao">
-                </section>
-                <section class="curso"><!--Uniasselvi -->
-                    <section id="texto-uniasselvi" class="texto-curso">
-                        <h2>Qualificações complementares:</h2>
-
-                        <h3>Centro Universitário Leonardo da Vinci - UNIASSELVI</h3>
-                        <ol>
-                            <li>Algoritmo
-                                <ol>
-                                    <li>Carga horária: 40 horas</li>
-                                    <li>Concluído</li>
-                                    <a href="assets/docs/Algoritmo.pdf" target="_blank">-Ver certificado-</a>
-                                </ol>
-                            </li>
-                            <li>Comunicação e Oratória
-                                <ol>
-                                    <li>Carga horária: 30 horas</li>
-                                    <li>Concluído</li>
-                                    <a href="assets/docs/Comunicação e Oratória.pdf" target="_blank">-Ver certificado-</a>
-                                </ol>
-                            </li>
-                            <li>Tecnologias e seus Impactos sobre a Sociedade
-                                <ol>
-                                    <li>Carga horária: 30 horas</li>
-                                    <li>Concluído</li>
-                                    <a href="assets/docs/Tecnologias e seus Impactos sobre a Sociedade .pdf" target="_blank">-Ver certificado-</a>
-                                </ol>
-                            </li>
-                            <li>Informática Básica
-                                <ol>
-                                    <li>Carga horária: 40 horas</li>
-                                    <li>Concluído</li>
-                                    <a href="assets/docs/Informática básica.pdf" target="_blank">-Ver certificado-</a>
-                                </ol>
-                            </li>
-                        </ol>
-                    </section>
-
-                    <section id="imagem-uniasselvi" class='imagem-curso'>
-                        <img src="assets/uniasselvi.png" alt="">
-                    </section>
-                    
+                    <h2>Qualificações complementares:</h2>
                 </section>
 
-
-
-                <section id="cursoemvideo" class="curso">
-                    <section class="texto-curso">
-
-                        <h3>Curso em vídeo:</h3>
-                        <ol>
-                            <li>Javascript 
-                                <ol>
-                                    <li>Carga horária: 40 horas</li>
-                                    <li>Concluído</li>
-                                    <a href="assets/docs/javascript.pdf" target="_blank">-Ver certificado-</a>
-                                </ol>
-                            </li>
-                        </ol>
+                <section class="cursos-details">
+                    <section class="texto-details">
+                        <details>
+                            <summary>Informática Básica</summary>
+                            <p>Centro Universitário Leonardo da Vinci - UNIASSELVI</p>
+                            <p>Carga Horária: 40 horas</p>
+                            <p>Concluído</p>
+                            <a href="assets/docs/Informática básica.pdf" target="_blank">-Ver certificado-</a>
+                        </details>
                     </section>
-                    <section class="imagem-curso" id="imagem-cursoemvideo">
-                        <img src="assets/cursoemvideo.png" alt="Curso em vídeo Logo">
-                    </section>
+                    <section class="imagem-details">
+                        <img src="assets/informatica.png" alt="Computador" id="info">
+                    </section>                    
                 </section>
-                <section id="dankicode" class="curso">
-                    <section class="texto-curso">
-                        <h3>Dankicode:</h3>
-                        <ol>
-                            <li>Lógica de programação 
-                                <ol>
-                                    <li>Carga horária: 6 horas</li>
-                                    <li>Concluído</li>
-                                    <a href="assets/docs/logica de programação.pdf" target="_blank">-Ver certificado-</a>
-                                </ol>
-                            </li>
-                        </ol>
+                
+                <section class="cursos-details">
+                    <section class="texto-details">
+                        <details>
+                            <summary>Algoritmo</summary>
+                            <p>Uniasselvi</p>
+                            <p>Carga Horária: 40 horas</p>
+                            <p>Concluído</p>
+                            <a href="assets/docs/Algoritmo.pdf" target="_blank">-Ver certificado-</a>
+                        </details>
                     </section>
-
-                    <section class="imagem-curso" id="imagem-dankicode">
-                        <img src="assets/dankicode.png" alt="">
-                        <!-- <h1 class="danki">
-                            danki.code
-                        </h1> -->
-                    </section>
+                    <section class="imagem-details">
+                        <img src="assets/algoritmo.png" alt="Computador">
+                    </section>                    
                 </section>
+                
+                <section class="cursos-details">
+                    <section class="texto-details">
+                        <details>
+                            <summary>Lógica de Programação</summary>
+                            <p>Dankicode</p>
+                            <p>Carga Horária: 6 horas</p>
+                            <p>Concluído</p>
+                            <a href="assets/docs/Algoritmo.pdf" target="_blank">-Ver certificado-</a>
+                        </details>
+                    </section>
+                    <section class="imagem-details">
+                        <img src="assets/logica.png" alt="Lógica de Programação" id="logica">
+                    </section>                    
+                </section>
+                
+                <section class="cursos-details">
+                    <section class="texto-details">
+                        <details>
+                            <summary>Javascript</summary>
+                            <p>Curso Em Vídeo</p>
+                            <p>Carga Horária: 40 horas</p>
+                            <p>Concluído</p>
+                            <a href="assets/docs/javascript.pdf" target="_blank">-Ver certificado-</a>
+                        </details>
+                    </section>
+                    <section class="imagem-details">
+                        <img src="assets/javascript.png" alt="Computador">
+                    </section>                    
+                </section>
+                
+                
+                
+                <section class="cursos-details">
+                    <section class="texto-details">
+                        <details>
+                            <summary>Tecnologias e seus Impactos sobre a Sociedade</summary>
+                            <p>Carga Horária: 40 horas</p>
+                            <p>Concluído</p>
+                            <a href="assets/docs/Algoritmo.pdf" target="_blank">-Ver certificado-</a>
+                        </details>
+                    </section>
+                    <section class="imagem-details">
+                        <img src="assets/tecnologia-sociedade.png" alt="Lógica de programação" id='tecnologia-sociedade'>
+                    </section>                    
+                </section>
+                <section class="cursos-details">
+                    <section class="texto-details">
+                        <details>
+                            <summary>Comunicação e Oratória</summary>
+                            <p>Centro Universitário Leonardo da Vinci - UNIASSELVI</p>
+                            <p>Carga Horária: 30 horas</p>
+                            <p>Concluído</p>
+                            <a href="assets/docs/Comunicação e Oratória.pdf" target="_blank">-Ver certificado-</a>
+                        </details>
+                    </section>
+                    <section class="imagem-details">
+                        <img src="assets/comunicacao.png" alt="Comunicação" id="comunicacao">
+                    </section>                    
+                </section>
+
         </section>
     </section>
 

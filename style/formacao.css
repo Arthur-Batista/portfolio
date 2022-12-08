@@ -27,15 +27,6 @@ section#formacao section.formacao h3{
     color: var(--subtitle-color)
 }
 
-section#formacao a{
-    color: #deb297;
-}
-
-section#formacao a:hover{
-    color: var(--link-hover-color)
-}
-
-
 section#formacao section.formacao ol, section#formacao section.formacao ol li{
     margin: 4%;
     line-height: 20px;

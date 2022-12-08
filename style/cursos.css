@@ -1,0 +1,52 @@
+details summary{
+    margin: 2% 0;
+}
+
+details p{
+    margin: 5% 0;
+    color: #deb297
+}
+
+details a{
+    color:#b3aca4;
+}
+
+details a:hover{
+    color: var(--link-hover-color)
+}
+
+section.cursos-details{
+    display: flex;
+}
+
+section.cursos-details section.texto-details{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section.cursos-details section.imagem-details{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section.cursos-details section.imagem-details img{
+    width: 40%;
+    height: 100%;
+}
+
+section.cursos-details section.imagem-details img#logica{
+    width: 65%;
+    height: 80%;
+}
+
+section.cursos-details section.imagem-details img#tecnologia-sociedade{
+    width: 70%;
+    height: 100%;
+}
+
+section.cursos-details section.imagem-details img#comunicacao{
+    width: 65%;
+    height: 80%;
+}
