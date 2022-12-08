@@ -50,3 +50,21 @@ section.cursos-details section.imagem-details img#comunicacao{
     width: 65%;
     height: 80%;
 }
+
+@media screen and (max-width:935px){
+    section.cursos-details{
+        flex-direction: column;
+    }
+
+    section.cursos-details section.imagem-details img, section.cursos-details section.imagem-details img#logica, section.cursos-details section.imagem-details img#tecnologia-sociedade, section.cursos-details section.imagem-details img#comunicacao{
+        width: 25%;
+    }
+
+    section.cursos-details section.texto-details{
+        justify-content: flex-start;
+    }
+
+    /* section.cursos-details section.imagem-details img#logica{
+        width: 25%;
+    } */
+}
