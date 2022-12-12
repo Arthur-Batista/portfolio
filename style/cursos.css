@@ -1,9 +1,9 @@
 details summary{
-    margin: 2% 0;
+    margin: 10px 0;
 }
 
 details p{
-    margin: 5% 0;
+    margin: 25px 0;
     color: #deb297
 }
 
@@ -25,46 +25,11 @@ section.cursos-details section.texto-details{
     align-items: center;
 }
 
-section.cursos-details section.imagem-details{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-section.cursos-details section.imagem-details img{
-    width: 40%;
-    height: 100%;
-}
-
-section.cursos-details section.imagem-details img#logica{
-    width: 65%;
-    height: 80%;
-}
-
-section.cursos-details section.imagem-details img#tecnologia-sociedade{
-    width: 70%;
-    height: 100%;
-}
-
-section.cursos-details section.imagem-details img#comunicacao{
-    width: 65%;
-    height: 80%;
-}
-
 @media screen and (max-width:935px){
     section.cursos-details{
         flex-direction: column;
     }
-
-    section.cursos-details section.imagem-details img, section.cursos-details section.imagem-details img#logica, section.cursos-details section.imagem-details img#tecnologia-sociedade, section.cursos-details section.imagem-details img#comunicacao{
-        width: 25%;
-    }
-
     section.cursos-details section.texto-details{
         justify-content: flex-start;
     }
-
-    /* section.cursos-details section.imagem-details img#logica{
-        width: 25%;
-    } */
 }

@@ -49,8 +49,6 @@ section#texto-ensinomedio{
     justify-content: space-around;
 }
 
-
-
 section#imagem-ensinomedio{
     width: 50%;
     display: flex;
@@ -62,9 +60,6 @@ section#imagem-ensinomedio img{
     width: 35%;
     height: 70%;
 }
-
-/* section#emprego{
-} */
 
 section#emprego section#texto-emprego{
     display: flex;
@@ -88,6 +83,7 @@ section#emprego section#imagem-emprego img{
 section#cursos{
     display: flex;
     flex-direction: column;
+    align-items: flex-start;
 }
 
 
@@ -101,23 +97,6 @@ section#cursos section.texto-curso{
     flex-direction: column;
     justify-content: space-around;
     width: 50%;
-}
-
-section#cursos section.imagem-curso{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 50%;
-}
-
-section#cursos section#imagem-uniasselvi img{
-    width: 60%;
-    height: 70%;
-}
-
-section#cursos section#imagem-cursoemvideo img{
-    width: 40%;
-    height: 90%;
 }
 
 @media screen and (max-width: 930px){
@@ -162,10 +141,6 @@ section#cursos section#imagem-cursoemvideo img{
         display: flex;
         align-items: center;
         justify-content: center;
-    }
-
-    section#imagem-dankicode img{
-        width: 170%;
     }
 
     section#formacao section.formacao h3{
