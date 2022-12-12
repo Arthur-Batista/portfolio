@@ -117,7 +117,7 @@ main img.foto-pixel{
 
 }
 
-@media screen and (min-width: 400px){
+/* @media screen and (min-width: 400px){
     main{
         flex-direction: row;
     }
@@ -125,4 +125,4 @@ main img.foto-pixel{
     main img.foto-pixel{
         width: 120%;
     }
-}
+} */
