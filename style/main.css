@@ -86,7 +86,6 @@ main img.foto-pixel{
     main section#nome{
         width: 100%;
         height: 50%;
-        align-content: flex-end;
     }
 
     main section#foto{
@@ -97,7 +96,7 @@ main img.foto-pixel{
     }
 
     main img.foto-pixel{
-        width: 60%;
+        width: 80%;
         height: 100%;
     }
 
@@ -115,4 +114,15 @@ main img.foto-pixel{
     }
 
 
+
+}
+
+@media screen and (min-width: 400px){
+    main{
+        flex-direction: row;
+    }
+
+    main img.foto-pixel{
+        width: 120%;
+    }
 }
