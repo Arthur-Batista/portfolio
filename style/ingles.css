@@ -1,5 +1,5 @@
 section#ingles{
-    height: 100%;
+    height: 100vh;
     background-color: var(--background-dois-color);
     display: flex;
     
@@ -24,6 +24,10 @@ section#ingles p, section#ingles a{
     text-align: justify;
     line-height: 30px;
     font-size: 80%;
+}
+
+section#ingles section#texto-ingles a{
+    text-align: center;
 }
 
 section#ingles section#texto-ingles a:hover{
