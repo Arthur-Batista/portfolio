@@ -1,0 +1,46 @@
+footer{
+    height: 100%;
+    background-color: var(--background-dois-color);
+    display: flex;
+    flex-direction: column;
+}
+
+footer h3{
+    margin: 5% 0 3% 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+footer section#texto-footer{
+    height: 10%;
+}
+
+footer section#contato-footer{
+    display: flex;
+    flex-direction: column;
+    margin: 0 8%;
+}
+
+footer section#contato-footer a{
+    display: flex;
+}
+
+footer section#contato-footer a p{
+    margin: 0 0 0 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer img{
+    width: 5%;
+    margin: 1% 0;
+}
+
+@media screen and (max-width: 1000px){
+    footer{
+        flex-direction: column;
+    }
+}
