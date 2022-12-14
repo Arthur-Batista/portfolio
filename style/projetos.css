@@ -1,0 +1,71 @@
+section#projetos{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+section#projetos section#texto-projetos{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    width: 60%;
+}
+
+section#projetos section#texto-projetos h2{
+    margin: 4% 0 0 8%;
+    width: 100%;
+    font-size: 180%;
+}
+
+section#projetos section#main-projetos{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+section#projetos section.container-projetos{
+    margin: 4% 0; 
+    background-color: #5a3938;
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 15px 15px #847b6d;
+}
+
+section#projetos section.container-projetos h3{
+    text-align: center;
+    margin: 2% 0;
+}
+
+section#projetos section.container-projetos p{
+    text-align: justify;
+    margin: 0 4%;
+    line-height: 30px;
+}
+
+section#projetos section.container-projetos a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5%;
+}
+
+section#projetos section.container-projetos a:hover{
+    color: var(--link-hover-color)
+}
+
+
+section#projetos section.container-projetos section.imagem-projetos img{
+    width: 100%;
+}
+
+@media screen and (max-width: 950px){
+    section#projetos section#main-projetos{
+        flex-direction: column;
+        align-content: space-around;
+    }
+
+    section#projetos section.container-projetos{
+        width: 80%;
+    }
+}
