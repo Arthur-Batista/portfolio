@@ -22,16 +22,31 @@
 <body>
 
     <header>
-        <nav>
+        <nav id="desktop">
             <ul>
                 <li> <a href="#sobre">Quem sou eu?</li></a> 
                 <li> <a href="#formacao">Formação</li></a> 
                 <li> <a href="#ingles">Inglês</li></a> 
                 <li> <a href="#projetos">Projetos</li></a> 
-                <li> <a href="#contato">Contato</li></a> 
             </ul>
         </nav>
+
+        <section id='btn-mobile'>
+            <button onclick="showMenu()">
+                <img class='icon' src="assets/menu.svg" alt="">
+            </button>
+        </section>   
+        
     </header>
+
+    <nav id="mobile-nav" class="active">
+        <ul>
+            <li> <a href="#sobre">Quem sou eu?</li></a> 
+            <li> <a href="#formacao">Formação</li></a> 
+            <li> <a href="#ingles">Inglês</li></a> 
+            <li> <a href="#projetos">Projetos</li></a> 
+        </ul>
+    </nav>
 
     <main>
         <section id="nome">
@@ -233,25 +248,6 @@
         </section>
     </footer>
 
-    <!-- <section id="contato">
-        <section id="texto-contato">
-            <h2>Entre em contato</h2>
-            <p>Para mais informações entre em contato nos endereços a seguir</p>
-        </section>
-
-        <section id="imagem-contato">
-            <section id="enderecos-contato">
-                <a href=""><img src="assets/whatsapp.png" alt="Whatsapp"></a>
-                <a href=""><img src="assets/github.png" alt="Github"></a>
-                <a href=""><img src="assets/linkedin.png" alt="Linkedin"></a>
-                <a href=""><img src="assets/instagram.png" alt="Instagram"></a>
-                <a href=""><img src="assets/gmail.png" alt="Gmail"></a>
-            </section>
-
-            <section id="foto-contato">
-                <img src="assets/imagem-contato.png" alt="">
-            </section>
-        </section>
-    </section> -->
+    <script src="app/app.js"></script>
 </body>
 </html>
