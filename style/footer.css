@@ -10,11 +10,15 @@ footer h3{
     display: flex;
     align-items: center;
     justify-content: center;
-
+    text-align: center;
+    width: 80%;
 }
 
 footer section#texto-footer{
     height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 footer section#contato-footer{
