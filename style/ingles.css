@@ -18,9 +18,15 @@ section#ingles h2{
     font-size: 180%;
 }
 
-section#ingles p, section#ingles a{
+section#ingles p{
     margin: 0 0 0 8%;
     width: 70%;
+    text-align: justify;
+    line-height: 30px;
+    font-size: 80%;
+}
+
+section#ingles a{
     text-align: justify;
     line-height: 30px;
     font-size: 80%;

@@ -8,11 +8,11 @@ section#projetos section#texto-projetos{
     display: flex;
     justify-content: space-around;
     flex-direction: column;
-    width: 60%;
+    width: 100%;
 }
 
 section#projetos section#texto-projetos h2{
-    margin: 4% 0 0 8%;
+    margin: 10% 0 0 8%;
     width: 100%;
     font-size: 180%;
 }
@@ -24,7 +24,7 @@ section#projetos section#main-projetos{
 }
 
 section#projetos section.container-projetos{
-    margin: 4% 0; 
+    margin: 8% 0; 
     background-color: #5a3938;
     width: 35%;
     display: flex;
@@ -67,5 +67,13 @@ section#projetos section.container-projetos section.imagem-projetos img{
 
     section#projetos section.container-projetos{
         width: 80%;
+    }
+
+    section#projetos section#texto-projetos h2{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 10% 0 0 0;
     }
 }
