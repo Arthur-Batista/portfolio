@@ -50,6 +50,7 @@ header nav ul li a:hover{
 
     #btn-mobile button{
         background-color: transparent;
+        border-style: none;
     }
 
     nav#mobile-nav.active{
